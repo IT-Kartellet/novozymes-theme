@@ -1,4 +1,4 @@
-/* Custom CSS
+sudo/* Custom CSS
 -------------------------*/
 a.logo {
     background: url([[setting:logo]]) no-repeat 0 0;
@@ -395,10 +395,6 @@ p {
 #page-content {
     margin-top:28px;
 }
-
-
-
-
 /* Once upon a time... */
 body {
   font-family: Verdana, Helvetica, sans-serif;
@@ -505,9 +501,7 @@ div.nav-collapse.collapse {
 header.navbar.navbar {
   height:132px;
   background-repeat: no-repeat;
-  /*background-image:url('http://i58.tinypic.com/wagad3.png');*/
-  /*background-image:url('http://i57.tinypic.com/2cok3f7.png');*/
-  background-image:url('http://novozymes.it-kartellet.dk/theme/novo/pix/png-1.png');
+  background-image:url('/theme/novo/pix/png-1.png');
 }
 header.navbar * {
   background: transparent;

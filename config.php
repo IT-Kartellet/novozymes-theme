@@ -53,6 +53,13 @@ $THEME->plugins_exclude_sheets = array(
     ),
 );
 
+//Added for use with configurable reports
+$THEME->layouts['incourse'] = array(
+        'file' => 'columns3.php',
+        'regions' => array('side-pre', 'side-post', 'center-pre'),
+        'defaultregion' => 'side-pre',
+);
+
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->csspostprocess = 'theme_novo_process_css';
 
@@ -68,5 +75,4 @@ $THEME->blockrtlmanipulations = array(
     'side-pre' => 'center-post',
     'side-pre' => 'center-pre',
     'side-post' => 'center-post',
-    'side-post' => 'center-pre'
 );
