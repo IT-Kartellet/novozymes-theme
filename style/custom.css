@@ -677,3 +677,6 @@ th.header {
 .navbar-inner {
   filter:none !important;
 }
+#settingsnav > ul > li.type_course.contains_branch > ul > li:nth-child(1) {
+	display: none;
+}
