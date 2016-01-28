@@ -94,9 +94,9 @@ echo $OUTPUT->doctype() ?>
                 <?php echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column pull-left'); ?>
                 
                 <section id="region-main" class="span8 pull-right center_block">
-                    <div id="region-center-pre" class="block-region">
+                    <div id="region-center-pre">
                         <div class="row-fluid">
-                            <?php echo $OUTPUT->blocks_for_region('center-pre') ?>
+                            <?php echo $OUTPUT->blocks('center-pre') ?>
                         </div>
                     </div>
                     <?php
