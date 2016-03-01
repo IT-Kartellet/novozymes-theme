@@ -60,6 +60,13 @@ $THEME->layouts['incourse'] = array(
         'defaultregion' => 'side-pre',
 );
 
+$THEME->layouts['frontpage'] = array(
+  'file' => 'columns3.php',
+  'regions' => array('side-pre', 'side-post', 'center-pre'),
+  'defaultregion' => 'side-pre',
+  'options' => array('nonavbar'=>true),
+);
+
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->csspostprocess = 'theme_novo_process_css';
 
